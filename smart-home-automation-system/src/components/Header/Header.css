@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #022737;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-button {
+  padding: 20px 40px;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #5C3AF6;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.header-button:hover {
+  background-color: #0056b3;
+}

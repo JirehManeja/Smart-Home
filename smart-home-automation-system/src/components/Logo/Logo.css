@@ -1,0 +1,21 @@
+.logo-container {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    height: 100px;
+    width: 300px;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    margin-right: 5px;
+}
+
+.logo-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
