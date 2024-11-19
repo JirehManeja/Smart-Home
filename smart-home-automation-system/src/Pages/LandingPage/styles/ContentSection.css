@@ -1,24 +1,24 @@
-/* ContentSection.css */
 .content-section {
+    background-color: var(--bg-primary-color);
+
     display: flex;
     height: 400px;
     align-items: center;
     padding: 20px;
-    background-color: #022737;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .content-section.reversed {
-    flex-direction: row-reverse; /* Swaps the positions */
+    flex-direction: row-reverse; 
 }
 
 .text-section {
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center-aligns horizontally */
-    justify-content: center; /* Center-aligns vertically */
-    text-align: center; /* Centers text within the section */
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
     margin-right: 20px;
 }
 
@@ -28,22 +28,22 @@
 }
 
 .title {
+    font-family: var(--font);
     font-size: 2rem;
     font-weight: bold;
-    font-family: 'Poppins', sans-serif;
     color: #fff;
 }
 
 .subtitle {
+    font-family: var(--font);
     font-size: 1.2rem;
-    font-family: 'Poppins', sans-serif;
     color: #639DF4;
     margin-top: 0;
 }
 
 .description {
+    font-family: var(--font);
     font-size: 1rem;
-    font-family: 'Poppins', sans-serif;
     color: #fff;
     margin-top: 0;
 }
@@ -58,5 +58,4 @@
     width: 100vh;
     height: 350px;
     border-radius: 8px;
-    border: 1px dashed black;
 }

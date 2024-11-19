@@ -1,0 +1,94 @@
+/* src/components/LoginForm.css */
+
+.login {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  z-index: 2;
+  transition: all 0.6s ease-in-out;
+}
+
+.login form {
+  background: #03202D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 35px;
+  height: 400px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  gap: 6px;
+}
+
+.login h3 {
+  font-weight: bold;
+  color: #fff;
+  margin: 8px 0;
+  font-size: 20px;
+}
+
+.login input {
+  background: #121F32;
+  padding: 6px 12px;
+  margin: 4px 0;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  outline: none;
+  color: #fff;
+  font-family: var(--font);
+  font-size: 13px;
+}
+
+.login input::placeholder {
+  color: var(--font-primary-color);
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.login a {
+  color: var(--font-primary-color);
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 100;
+  text-decoration: none;
+  margin: 5px 0 15px;
+  align-self: flex-end;
+  width: 100%;
+  text-align: right;
+}
+
+.login button {
+  color: var(--font-primary-color);
+  background: var(--button-color);
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 750;
+  padding: 12px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  text-transform: none;
+  transition: transform 80ms ease-in;
+  cursor: pointer;
+}
+
+.login button:active {
+  transform: scale(0.90);
+}
+
+.login-title {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: var(--font);
+  color: var(--font-primary-color);
+}
