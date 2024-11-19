@@ -1,5 +1,5 @@
 import React from "react";
-import './ContentSection.css';
+import '../styles/ContentSection.css';
 
 function ContentSection({ title, subtitle, description, imageSrc, isReversed = false, backgroundColor = '#022737'}){
     return(

@@ -1,0 +1,42 @@
+.extra-content-container {
+  background-color: var(--bg-primary-color);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.tagline {
+  font-family: var(--font);
+
+  font-size: 48px;
+  color: var(--font-primary-color);
+  margin: 0;
+}
+
+.button {
+  font-family: var(--font);
+  background-color: var(--button-color);
+  color: var(--font-primary-color);
+
+  padding: 15px 40px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  width: auto;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+  

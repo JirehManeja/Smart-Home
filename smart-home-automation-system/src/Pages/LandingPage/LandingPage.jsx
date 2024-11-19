@@ -1,11 +1,11 @@
-import Header from '../../components/Header/Header';
-import Footer from '../../components/Footer/Footer';
-import ContentSection from '../../components/ContentSection/ContentSection';
-import ExtraContent from '../../components/ContentSection/ExtraContent';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+import ContentSection from './components/ContentSection';
+import ExtraContent from './components/ExtraContent';
 
 function LandingPage(){
     return(
-        <>
+        <div className="landing-page">
             <Header />
             <ContentSection
                 title="Your Home, Your Rules"
@@ -37,7 +37,7 @@ function LandingPage(){
             />
             <ExtraContent />
             <Footer />
-        </>
+        </div>
     )
 }
 
